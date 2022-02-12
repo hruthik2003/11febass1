@@ -1,0 +1,33 @@
+stdno=int(input("enter std no:"))
+stdname=input("enter stdname:")
+stdm1=int(input("enter maths marks:"))
+stdm2=int(input("enter stat marks:"))
+stdm3=int(input("enter computer marks:"))
+stdm4=int(input("enter telugu marks:"))
+stdm5=int(input("enter english marks:"))
+stdm6=int(input("enter environmental marks:"))
+if(stdm1>=35):
+    print("pass")
+elif(stdm2>=35):
+    print("pass")
+elif(stdm3>=35):
+    print("pass")
+elif(stdm4>=35):
+    print("pass")
+elif(stdm5>=35):
+    print("pass")
+elif(stdm6>=35):
+    print("pass")
+else:
+    print("fail")
+
+output:
+enter std no:1
+enter stdname:jaisurya
+enter maths marks:60
+enter stat marks:60
+enter computer marks:60
+enter telugu marks:60
+enter english marks:60
+enter environmental marks:60
+pass
